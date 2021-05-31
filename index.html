@@ -1,0 +1,49 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Sample-Forms</title>
+  </head>
+  <body>
+    <div class="buttons">
+      <button id="change" class="default" onclick="defaultColor()"></button>
+      <button id="change" class="pink" onclick="colorPink()"></button>
+      <button id="change" class="blue" onclick="colorBlue()"></button>
+      <button id="change" class="purple" onclick="colorPurple()"></button>
+      <button id="change" class="orange" onclick="colorOrange()"></button>
+    </div>
+    <div class="flex" id="color-picker">
+      <header>Sign Up</header>
+      <h3>A sample sign up form</h3>
+      <!-- <img src="img/download.jpeg" alt="User Image" class="user-image" /> -->
+      <div class="form">
+        <form class="form-item">
+          <input type="text" name="fname" placeholder="First name" />
+          <input type="text" name="lname" placeholder="Last name" />
+          <input type="email" name="Email" placeholder="Email" />
+          <input type="password" name="Password" placeholder="Password" />
+          <input
+            type="password"
+            name="password"
+            placeholder="Confirm password"
+          />
+        </form>
+      </div>
+      <div class="submit">
+        <input type="submit" value="Sign up" />
+      </div>
+      <div class="or">
+        <hr />
+        OR
+        <hr />
+      </div>
+      <div class="login-button">
+        <img src="img/Google.png" alt="Google" />
+        <h4>Sign in with Google</h4>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
